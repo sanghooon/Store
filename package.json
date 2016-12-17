@@ -1,0 +1,24 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "Full-stack web application to create an online retail store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon -L app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanghooon/Store.git"
+  },
+  "author": "Sanghoon Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanghooon/Store/issues"
+  },
+  "homepage": "https://github.com/sanghooon/Store#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
